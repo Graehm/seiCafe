@@ -170,7 +170,7 @@ function LoginForm(_ref) {
 function Logo() {
   return /*#__PURE__*/React.createElement("div", {
     className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Logo
-  }, /*#__PURE__*/React.createElement("div", null, "Leaf"), /*#__PURE__*/React.createElement("div", null, "&"), /*#__PURE__*/React.createElement("div", null, "Stem"));
+  }, /*#__PURE__*/React.createElement("div", null, "Start Here"), /*#__PURE__*/React.createElement("div", null, "M Parts"));
 }
 
 /***/ }),
@@ -1123,13 +1123,12 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.EDeinQzfS2N2rVW_Z1GP {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
   background-color: rgb(125, 159, 54);
   color: whitesmoke;
   font-size: 2.7vmin;
   font-family: "Amatic SC";
   border: 0.6vmin solid var(--tan-2);
-}`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,mCAAA;EACA,iBAAA;EACA,kBAAA;EACA,wBAAA;EACA,kCAAA;AACJ","sourcesContent":[".Logo {\n    height: 12vmin;\n    width: 12vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    border-radius: 50%;\n    background-color: rgb(125, 159, 54);\n    color: whitesmoke;\n    font-size: 2.7vmin;\n    font-family: 'Amatic SC';\n    border: .6vmin solid var(--tan-2);\n    }\n\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,mCAAA;EACA,iBAAA;EACA,kBAAA;EACA,wBAAA;EACA,kCAAA;AACJ","sourcesContent":[".Logo {\n    height: 12vmin;\n    width: 12vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-color: rgb(125, 159, 54);\n    color: whitesmoke;\n    font-size: 2.7vmin;\n    font-family: 'Amatic SC';\n    border: .6vmin solid var(--tan-2);\n    }\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Logo": `EDeinQzfS2N2rVW_Z1GP`
@@ -2720,4 +2719,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.826090e206031fc345da689eb7def18a.js.map
+//# sourceMappingURL=App.d286902bb92e7126cc8b5c91cc91775a.js.map

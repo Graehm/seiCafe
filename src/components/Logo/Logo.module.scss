@@ -5,10 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(125, 159, 54);
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
     font-size: 2.7vmin;
-    font-family: 'Amatic SC';
-    border: .6vmin solid var(--tan-2);
+    font-family: 'Kanit', sans-serif;
+    border: .4vmin solid var(--tan-2);
+    border-radius: 50%;
+    border-color: black;
     }
 

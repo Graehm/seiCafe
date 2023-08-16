@@ -113,14 +113,14 @@ input {
 }
 
 input:focus {
-  border-color: var(--orange);
+  border-color: darkgray;
 }
 
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
   color: var(--white);
-  background-color: var(--orange);
+  background-color: rgb(121,197,255,.8);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -134,6 +134,7 @@ button, a.button {
 button.btn-sm {
   font-size: 1.5vmin;
   padding: .6vmin .8vmin;
+  background-color: red
 }
 
 button.btn-xs {
@@ -143,7 +144,7 @@ button.btn-xs {
 
 button:disabled, form:invalid button[type="submit"] {
   cursor: not-allowed;
-  background-color: var(--tan-4);
+  background-color: rgb(121,197,255,.8);
 }
 
 button[type="submit"] {

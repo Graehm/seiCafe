@@ -8,34 +8,54 @@ const Item = require('../models/item');
 
   await Category.deleteMany({});
   const categories = await Category.create([
-    {name: 'E28', sortOrder: 10},
-    {name: 'E34', sortOrder: 20},
-    {name: 'E39', sortOrder: 30},
-    {name: 'E60', sortOrder: 40},
-    {name: 'F10', sortOrder: 50},
-    {name: 'F90', sortOrder: 60}
+    {name: 'Air', sortOrder: 10},
+    {name: 'Brakes', sortOrder: 20},
+    {name: 'Cooling System', sortOrder: 30},
+    {name: 'Engine', sortOrder: 40},
+    {name: 'Fuel', sortOrder: 50},
+    {name: 'Oil', sortOrder: 60},
+    {name: 'Steering', sortOrder: 70},
+    {name: 'Suspension', sortOrder: 80},
+    {name: 'Transmission', sortOrder: 90}
+
+
     ]);
 
   await Item.deleteMany({});
   const items = await Item.create([
-    {name: 'Hamburger', emoji: '🍔', category: categories[0], price: 5.95},
-    {name: 'Turkey Sandwich', emoji: '🥪', category: categories[0], price: 6.95},
-    {name: 'Hot Dog', emoji: '🌭', category: categories[0], price: 3.95},
-    {name: 'Crab Plate', emoji: '🦀', category: categories[1], price: 14.95},
-    {name: 'Fried Shrimp', emoji: '🍤', category: categories[1], price: 13.95},
-    {name: 'Whole Lobster', emoji: '🦞', category: categories[1], price: 25.95},
-    {name: 'Vanos Board', emoji: '🌮', category: categories[2], price: 1.95},
-    {name: 'Servotronic Sensor', emoji: '🌮', category: categories[2], price: 1.95},
-    {name: 'Timing Chain Guide Kit', emoji: '🌯', category: categories[2], price: 4.95},
-    {name: 'Pizza Slice', emoji: '🍕', category: categories[3], price: 3.95},
-    {name: 'Spaghetti', emoji: '🍝', category: categories[3], price: 7.95},
-    {name: 'Garlic Bread', emoji: '🍞', category: categories[3], price: 1.95},
-    {name: 'French Fries', emoji: '🍟', category: categories[4], price: 2.95},
-    {name: 'Green Salad', emoji: '🥗', category: categories[4], price: 3.95},
-    {name: 'Ice Cream', emoji: '🍨', category: categories[5], price: 1.95},
-    {name: 'Cup Cake', emoji: '🧁', category: categories[5], price: 0.95},
-    {name: 'Custard', emoji: '🍮', category: categories[5], price: 2.95},
-    {name: 'Strawberry Shortcake', emoji: '🍰', category: categories[5], price: 3.95}
+    {name: 'Eventuri Intake Set', emoji: '🍔', category: categories[0], price: 1295.00},
+    {name: 'Cabin Air Filter', emoji: '🍔', category: categories[0], price: 25.95},
+    {name: 'Air Filter', emoji: '🥪', category: categories[0], price: 40.42},
+    {name: 'Plenum Plates', emoji: '🌭', category: categories[0], price: 595.00},
+    {name: 'Rotors Set', emoji: '🦀', category: categories[1], price: 720.99},
+    {name: 'Pads', emoji: '🍤', category: categories[1], price: 80.95},
+    {name: 'Caliper Piston Kit', emoji: '🦞', category: categories[1], price: 49.95},
+    {name: 'Stainless Steel Brake Lines', emoji: '🦞', category: categories[1], price: 78.99},
+    {name: 'Expansion Tank', emoji: '🌮', category: categories[2], price: 150.49},
+    {name: 'Radiator Hose Set', emoji: '🌮', category: categories[2], price: 70.95},
+    {name: 'Radiator', emoji: '🌮', category: categories[2], price: 125.99},
+    {name: 'Thermostat', emoji: '🌯', category: categories[2], price: 70.72},
+    {name: 'Waterpump', emoji: '🌯', category: categories[2], price: 549.25},
+    {name: 'Timing Chain Guide Set', emoji: '🍕', category: categories[3], price: 1995.99},
+    {name: 'Vanos Board', emoji: '🍝', category: categories[3], price: 250.00},
+    {name: 'Spark Plug', emoji: '🍞', category: categories[3], price: 10.12},
+    {name: 'Ignition Coil', emoji: '🍞', category: categories[3], price: 110.89},
+    {name: 'Camshaft Position Sensor', emoji: '🍞', category: categories[3], price: 100.95},
+    {name: 'Fuel Filter', emoji: '🍟', category: categories[4], price: 20.95},
+    {name: 'Fuel Pump', emoji: '🥗', category: categories[4], price: 395.95},
+    {name: 'Fuel Pump Relay', emoji: '🥗', category: categories[4], price: 3.95},
+    {name: 'Fuel Injector', emoji: '🥗', category: categories[4], price: 399.00},
+    {name: 'LiquiMoly 10w60', emoji: '🍨', category: categories[5], price: 14.00},
+    {name: 'MANN Oil Filter', emoji: '🍨', category: categories[5], price: 11.95},
+    {name: 'Servotronic Sensor', emoji: '🍮', category: categories[6], price: 2022.95},
+    {name: 'Dinan Strut Reinforcement Bar', emoji: '🍮', category: categories[7], price: 390.95},
+    {name: '20 Piece Cibtrol Arm Set', emoji: '🍰', category: categories[7], price: 1871.99},
+    {name: 'Bilstein Shocks', emoji: '🍰', category: categories[7], price: 871.99},
+    {name: 'Clutch Kit', emoji: '🍮', category: categories[8], price: 346.99},
+    {name: 'Flywheel', emoji: '🍮', category: categories[8], price: 679.00},
+    {name: 'Clutch Master Cylinder', emoji: '🍮', category: categories[8], price: 77.95},
+    {name: 'Fork Pivot Pin', emoji: '🍮', category: categories[8], price: 20.95}
+
   ]);
 
   console.log(items)

@@ -5,10 +5,9 @@
     align-items: center;
     margin-bottom: 2vmin;
     padding: 1.7vmin;
-    color: lightgray;
     background-color: var(--white);
-    border: .1vmin solid white;
-    border-radius: .3vmin;
+    border: .1vmin solid lightgray;
+    border-radius: .5vmin;
     font-size: 4vmin;
   }
   
@@ -28,7 +27,7 @@
   }
   
   .MenuListItem .name {
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     text-align: left;
     color: black;
   }

@@ -7,7 +7,7 @@
     padding: 2vmin;
     color: var(--text-light);
     background-color: var(--white);
-    border: .2vmin solid var(--tan-3);
+    border: .1vmin solid var(--tan-3);
     border-radius: 1vmin;
     font-size: 2vmin;
     cursor: pointer;
@@ -19,11 +19,11 @@
     
     .OrderListItem.selected {
     border-color: var(--orange);
-    border-width: .2vmin;
+    border-width: .1vmin;
     cursor: default;
     }
     
     .OrderListItem:not(.selected):hover {
     border-color: var(--orange);
-    border-width: .2vmin;
+    border-width: .1vmin;
     }

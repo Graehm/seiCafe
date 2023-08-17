@@ -6,10 +6,11 @@
     }
     
     .CategoryList li {
-    padding: .6vmin;
-    text-align: center;
+    padding: .2vmin;
+    text-align: left;
     border-radius: .5vmin;
     margin-bottom: .5vmin;
+    color: #000b;
     }
     
     .CategoryList li:hover:not(.active) {

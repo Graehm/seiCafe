@@ -3,23 +3,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 3vmin;
-    padding: 2vmin;
-    color: var(--text-light);
+    margin-bottom: 2vmin;
+    padding: 1.7vmin;
+    color: lightgray;
     background-color: var(--white);
-    border: .1vmin solid var(--tan-3);
-    border-radius: 1vmin;
+    border: .1vmin solid white;
+    border-radius: .3vmin;
     font-size: 4vmin;
   }
   
-  .MenuListItem .emoji {
-    height: 8vw;
-    width: 8vw;
-    font-size: 4vw;
-    background-color: var(--tan-1);
-    border: .1vmin solid var(--tan-3);
-    border-radius: 1vmin;
-  }
+.MenuListItem .image {
+  height: 7vmin;
+}
   
   .MenuListItem .buy {
     display: flex;
@@ -27,13 +22,13 @@
   }
   
   .MenuListItem .buy span {
-    font-size: 1.7vw;
+    font-size: 1vw;
     text-align: center;
     color: var(--text-light);
   }
   
   .MenuListItem .name {
-    font-size: 2vw;
-    text-align: center;
-    color: var(--text-light);
+    font-size: 1.3vw;
+    text-align: left;
+    color: black;
   }

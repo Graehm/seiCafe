@@ -4,7 +4,7 @@ export default function MenuListItem({ menuItem, handleAddToOrder }) {
   return (
     <div className={styles.MenuListItem}>
       <img className={styles.image} src={menuItem.image}></img>
-      <div className={styles.emoji + ' ' + 'flex-ctr-ctr'}>{menuItem.emoji}</div>
+      {/* <div className={styles.emoji + ' ' + 'flex-ctr-ctr'}>{menuItem.emoji}</div> */}
       <div className={styles.name}>{menuItem.name}</div>
       <div className={styles.buy}>
         <span>${menuItem.price.toFixed(2)}</span>

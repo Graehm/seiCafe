@@ -1,6 +1,5 @@
 {
   "presets": [
-
     ["@babel/env",
       {
         "targets": {
@@ -19,12 +18,16 @@
       "loose": true
     }],
     ["@babel/plugin-proposal-class-properties", {
-      "loose": false,
-      "legacy": true
+      "legacy": true,
+      "loose": false
     }],
     ["@babel/plugin-syntax-dynamic-import", {
-      "loose": true,
-      "legacy": true
-    }] 
+      "legacy": true,
+      "loose": true
+    }],
+    ["@babel/plugin-transform-async-to-generator", {
+      "legacy": true,
+      "loose": true
+    }]
   ]
 }

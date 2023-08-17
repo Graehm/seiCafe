@@ -1298,16 +1298,15 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.X4tFBfG4MKknHvd01CKE {
 }
 
 .X4tFBfG4MKknHvd01CKE .fO9kiPygtr0vmzsXoUxA span {
-  font-size: 1vw;
+  font-size: 1.5vmin;
   text-align: center;
-  color: var(--text-light);
 }
 
 .X4tFBfG4MKknHvd01CKE .VR1OCl60qOXrRx1IzVEa {
   font-size: 1.2vw;
   text-align: left;
   color: black;
-}`, "",{"version":3,"sources":["webpack://./src/components/MenuListItem/MenuListItem.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,oBAAA;EACA,gBAAA;EACA,8BAAA;EACA,+BAAA;EACA,sBAAA;EACA,gBAAA;AACJ;;AAEA;EACE,aAAA;AACF;;AAEE;EACE,aAAA;EACA,sBAAA;AACJ;;AAEE;EACE,cAAA;EACA,kBAAA;EACA,wBAAA;AACJ;;AAEE;EACE,gBAAA;EACA,gBAAA;EACA,YAAA;AACJ","sourcesContent":[".MenuListItem {\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-bottom: 2vmin;\n    padding: 1.7vmin;\n    background-color: var(--white);\n    border: .1vmin solid lightgray;\n    border-radius: .5vmin;\n    font-size: 4vmin;\n  }\n  \n.MenuListItem .image {\n  height: 7vmin;\n}\n  \n  .MenuListItem .buy {\n    display: flex;\n    flex-direction: column;\n  }\n  \n  .MenuListItem .buy span {\n    font-size: 1vw;\n    text-align: center;\n    color: var(--text-light);\n  }\n  \n  .MenuListItem .name {\n    font-size: 1.2vw;\n    text-align: left;\n    color: black;\n  }"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/MenuListItem/MenuListItem.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,oBAAA;EACA,gBAAA;EACA,8BAAA;EACA,+BAAA;EACA,sBAAA;EACA,gBAAA;AACJ;;AAEA;EACE,aAAA;AACF;;AAEE;EACE,aAAA;EACA,sBAAA;AACJ;;AAEE;EACE,kBAAA;EACA,kBAAA;AACJ;;AAEE;EACE,gBAAA;EACA,gBAAA;EACA,YAAA;AACJ","sourcesContent":[".MenuListItem {\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-bottom: 2vmin;\n    padding: 1.7vmin;\n    background-color: var(--white);\n    border: .1vmin solid lightgray;\n    border-radius: .5vmin;\n    font-size: 4vmin;\n  }\n  \n.MenuListItem .image {\n  height: 7vmin;\n}\n  \n  .MenuListItem .buy {\n    display: flex;\n    flex-direction: column;\n  }\n  \n  .MenuListItem .buy span {\n    font-size: 1.5vmin;\n    text-align: center;\n  }\n  \n  .MenuListItem .name {\n    font-size: 1.2vw;\n    text-align: left;\n    color: black;\n  }"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"MenuListItem": `X4tFBfG4MKknHvd01CKE`,
@@ -2804,4 +2803,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.0c270185a2acdee2cd845d3c20ba734a.js.map
+//# sourceMappingURL=App.db387f57db9ad73249f4808cb7b03915.js.map

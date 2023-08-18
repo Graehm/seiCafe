@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: darkgry;
+    background-image: url('http://localhost:3000/img/logo.jpg');
+    background-size: 33vmin;
+    background-position: center;
     color: black;
     font-size: 2.7vmin;
     font-family: 'Kanit', sans-serif;
-    border: .4vmin solid black;
+    border: .3vmin solid black;
     border-radius: 50%;
     }
-

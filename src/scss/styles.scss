@@ -24,8 +24,8 @@ body {
   background-size: cover;
   background-position: center;
   */
-  background-color: red;
-  padding: 2vmin;
+  background-color: #e6ebf3;
+  padding: 5vmin;
   height: 100vh;
 }
 
@@ -83,8 +83,8 @@ code {
 
 .form-container {
   padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
+  /*background-color: var(--tan-1);
+  border: .1vmin solid var(--tan-3);*/
   border-radius: 1vmin;
 }
 
@@ -122,10 +122,10 @@ input:focus {
 
 button, a.button {
   margin: 1vmin;
-  padding: 1vmin;
+  padding: .6vmin;
   color: var(--white);
-  background-color: rgb(121,197,255,.8);
-  font-size: 2vmin;
+  background-color: #38a4fe;
+  font-size: 1.8vmin;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
@@ -137,8 +137,8 @@ button, a.button {
 
 button.btn-sm {
   font-size: 1.5vmin;
-  padding: .6vmin .8vmin;
-  background-color: red
+  padding: .4vmin 2vmin;
+  background-color: #c91816
 }
 
 button.btn-xs {
@@ -148,7 +148,7 @@ button.btn-xs {
 
 button:disabled, form:invalid button[type="submit"] {
   cursor: not-allowed;
-  background-color: rgb(121,197,255,.8);
+  background-color: #38a4fe;
 }
 
 button[type="submit"] {

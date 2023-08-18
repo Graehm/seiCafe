@@ -23,7 +23,7 @@ const Item = require('../models/item');
 
   await Item.deleteMany({});
   const items = await Item.create([
-    {name: 'Eventuri Intake Set', image: 'https://i.imgur.com/qFNszjq.jpg', category: categories[0], price: 1295.00},
+    {name: 'Eventuri Intake Set', image: 'https://i.imgur.com/qFNszjq.jpg', desc: 'improve intake noise and gain a power' ,category: categories[0], price: 1295.00},
     {name: 'Air Filter', image: 'https://i.imgur.com/DOzRIgS.jpg', category: categories[0], price: 40.42},
     {name: 'Plenum Plates', image: 'https://i.imgur.com/vUPW7YR.jpg', category: categories[0], price: 595.00},
     {name: 'Front Rotor - Pair', image: 'https://i.imgur.com/aK3emU4.jpg', category: categories[1], price: 499.00},

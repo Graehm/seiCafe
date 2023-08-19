@@ -14,8 +14,10 @@
     }
     
     .CategoryList li:hover:not(.active) {
+    display: flex;
+    flex-grow: 2;
     cursor: pointer;
-    background-color: blue;
+    background-color: #23588f;
     color: var(--white);
     }
     

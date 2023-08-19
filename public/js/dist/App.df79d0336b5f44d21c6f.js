@@ -1102,8 +1102,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.l8hJyaPvo9smd6LiNqWK {
 }
 
 .l8hJyaPvo9smd6LiNqWK li:hover:not(._scckhAN2KPE1u73kR14) {
+  display: flex;
+  flex-grow: 2;
   cursor: pointer;
-  background-color: blue;
+  background-color: #23588f;
   color: var(--white);
 }
 
@@ -1111,7 +1113,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.l8hJyaPvo9smd6LiNqWK {
   color: var(--text-dark);
   background-color: var(--tan-1);
   border: 0.1vmin solid var(--tan-3);
-}`, "",{"version":3,"sources":["webpack://./src/components/CategoryList/CategoryList.module.scss"],"names":[],"mappings":"AAAA;EACI,wBAAA;EACA,gBAAA;EACA,UAAA;EACA,gBAAA;AACJ;;AAEI;EACA,gBAAA;EACA,gBAAA;EACA,sBAAA;EACA,sBAAA;EACA,kCAAA;AACJ;;AAEI;EACA,eAAA;EACA,sBAAA;EACA,mBAAA;AACJ;;AAEI;EACA,uBAAA;EACA,8BAAA;EACA,kCAAA;AACJ","sourcesContent":[".CategoryList {\n    color: var(--text-light);\n    list-style: none;\n    padding: 0;\n    font-size: 1.3vw;\n    }\n    \n    .CategoryList li {\n    padding: .2vmin;\n    text-align: left;\n    border-radius: .5vmin;\n    margin-bottom: .5vmin;\n    color: #000b;\n    }\n    \n    .CategoryList li:hover:not(.active) {\n    cursor: pointer;\n    background-color: blue;\n    color: var(--white);\n    }\n    \n    .CategoryList li.active {\n    color: var(--text-dark);\n    background-color: var(--tan-1);\n    border: .1vmin solid var(--tan-3);\n    }"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/CategoryList/CategoryList.module.scss"],"names":[],"mappings":"AAAA;EACI,wBAAA;EACA,gBAAA;EACA,UAAA;EACA,gBAAA;AACJ;;AAEI;EACA,gBAAA;EACA,gBAAA;EACA,sBAAA;EACA,sBAAA;EACA,kCAAA;AACJ;;AAEI;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,yBAAA;EACA,mBAAA;AACJ;;AAEI;EACA,uBAAA;EACA,8BAAA;EACA,kCAAA;AACJ","sourcesContent":[".CategoryList {\n    color: var(--text-light);\n    list-style: none;\n    padding: 0;\n    font-size: 1.3vw;\n    }\n    \n    .CategoryList li {\n    padding: .2vmin;\n    text-align: left;\n    border-radius: .5vmin;\n    margin-bottom: .5vmin;\n    color: #000b;\n    }\n    \n    .CategoryList li:hover:not(.active) {\n    display: flex;\n    flex-grow: 2;\n    cursor: pointer;\n    background-color: #23588f;\n    color: var(--white);\n    }\n    \n    .CategoryList li.active {\n    color: var(--text-dark);\n    background-color: var(--tan-1);\n    border: .1vmin solid var(--tan-3);\n    }"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"CategoryList": `l8hJyaPvo9smd6LiNqWK`,
@@ -1214,13 +1216,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.EDeinQzfS2N2rVW_Z1GP {
   color: black;
   font-size: 2.6vmin;
   font-family: "Kanit", sans-serif;
-  border: 0.3vmin solid black;
+  border: 0.34vmin solid black;
   border-radius: 50%;
 }
 
 /*.rotate {
     transform: rotate(-45deg);
-}*/`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,2DAAA;EACA,uBAAA;EACA,2BAAA;EACA,YAAA;EACA,kBAAA;EACA,gCAAA;EACA,2BAAA;EACA,kBAAA;AACJ;;AACA;;EAAA","sourcesContent":[".Logo {\n    height: 12vmin;\n    width: 12vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-image: url('http://localhost:3000/img/logo.jpg');\n    background-size: 33vmin;\n    background-position: center;\n    color: black;\n    font-size: 2.6vmin;\n    font-family: 'Kanit', sans-serif;\n    border: .3vmin solid black;\n    border-radius: 50%;\n    }\n/*.rotate {\n    transform: rotate(-45deg);\n}*/"],"sourceRoot":""}]);
+}*/`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,2DAAA;EACA,uBAAA;EACA,2BAAA;EACA,YAAA;EACA,kBAAA;EACA,gCAAA;EACA,4BAAA;EACA,kBAAA;AACJ;;AACA;;EAAA","sourcesContent":[".Logo {\n    height: 12vmin;\n    width: 12vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-image: url('http://localhost:3000/img/logo.jpg');\n    background-size: 33vmin;\n    background-position: center;\n    color: black;\n    font-size: 2.6vmin;\n    font-family: 'Kanit', sans-serif;\n    border: .34vmin solid black;\n    border-radius: 50%;\n    }\n/*.rotate {\n    transform: rotate(-45deg);\n}*/"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Logo": `EDeinQzfS2N2rVW_Z1GP`
@@ -1587,7 +1589,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
   background-image: url("http://localhost:3000/img/background.jpg");
-  background-size: 145vmin;
+  background-size: 195vmin;
   background-repeat: no-repeat;
   background-position: top;
   height: 100%;
@@ -1603,7 +1605,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
   text-align: center;
   color: #e6e6e4;
   cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,iEAAA;EACA,wBAAA;EACA,4BAAA;EACA,wBAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,eAAA;EACA,oBAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,eAAA;AACJ","sourcesContent":[".AuthPage {\n    background-image: url('http://localhost:3000/img/background.jpg');\n    background-size: 145vmin;\n    background-repeat: no-repeat;\n    background-position: top;\n    height: 100%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    padding: 29vmin;\n    border-radius: 2vmin\n  }\n  \n  .AuthPage h3 {\n    margin-top: 4vmin;\n    text-align: center;\n    color:#e6e6e4;\n    cursor: pointer;\n  }\n\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,iEAAA;EACA,wBAAA;EACA,4BAAA;EACA,wBAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,eAAA;EACA,oBAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,eAAA;AACJ","sourcesContent":[".AuthPage {\n    background-image: url('http://localhost:3000/img/background.jpg');\n    background-size: 195vmin;\n    background-repeat: no-repeat;\n    background-position: top;\n    height: 100%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    padding: 29vmin;\n    border-radius: 2vmin\n  }\n  \n  .AuthPage h3 {\n    margin-top: 4vmin;\n    text-align: center;\n    color:#e6e6e4;\n    cursor: pointer;\n  }\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"AuthPage": `RygkJgZmBHTETlLP3C3i`
@@ -2802,4 +2804,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.e344ec6f6db92480013f355212a00ffc.js.map
+//# sourceMappingURL=App.98b42b99532fd9ae116252434ba3ce68.js.map

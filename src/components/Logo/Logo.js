@@ -8,3 +8,6 @@ return (
   </div>
 );
 }
+
+{/* <div style={transform.rotate}>Bimmer</div>
+<div style={transform.rotate}>Bits</div> */}

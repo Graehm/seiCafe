@@ -180,6 +180,8 @@ function Logo() {
     className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Logo
   }, /*#__PURE__*/React.createElement("div", null, "Bimmer"), /*#__PURE__*/React.createElement("div", null, "Bits"));
 }
+{/* <div style={transform.rotate}>Bimmer</div>
+ <div style={transform.rotate}>Bits</div> */}
 
 /***/ }),
 
@@ -1210,11 +1212,15 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.EDeinQzfS2N2rVW_Z1GP {
   background-size: 33vmin;
   background-position: center;
   color: black;
-  font-size: 2.7vmin;
+  font-size: 2.6vmin;
   font-family: "Kanit", sans-serif;
   border: 0.3vmin solid black;
   border-radius: 50%;
-}`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,2DAAA;EACA,uBAAA;EACA,2BAAA;EACA,YAAA;EACA,kBAAA;EACA,gCAAA;EACA,2BAAA;EACA,kBAAA;AACJ","sourcesContent":[".Logo {\n    height: 12vmin;\n    width: 12vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-image: url('http://localhost:3000/img/logo.jpg');\n    background-size: 33vmin;\n    background-position: center;\n    color: black;\n    font-size: 2.7vmin;\n    font-family: 'Kanit', sans-serif;\n    border: .3vmin solid black;\n    border-radius: 50%;\n    }"],"sourceRoot":""}]);
+}
+
+/*.rotate {
+    transform: rotate(-45deg);
+}*/`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,2DAAA;EACA,uBAAA;EACA,2BAAA;EACA,YAAA;EACA,kBAAA;EACA,gCAAA;EACA,2BAAA;EACA,kBAAA;AACJ;;AACA;;EAAA","sourcesContent":[".Logo {\n    height: 12vmin;\n    width: 12vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-image: url('http://localhost:3000/img/logo.jpg');\n    background-size: 33vmin;\n    background-position: center;\n    color: black;\n    font-size: 2.6vmin;\n    font-family: 'Kanit', sans-serif;\n    border: .3vmin solid black;\n    border-radius: 50%;\n    }\n/*.rotate {\n    transform: rotate(-45deg);\n}*/"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Logo": `EDeinQzfS2N2rVW_Z1GP`
@@ -2796,4 +2802,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.0e24f2db4ece24ed7430d05557843752.js.map
+//# sourceMappingURL=App.e344ec6f6db92480013f355212a00ffc.js.map

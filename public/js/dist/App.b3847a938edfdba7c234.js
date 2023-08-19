@@ -178,7 +178,11 @@ function LoginForm(_ref) {
 function Logo() {
   return /*#__PURE__*/React.createElement("div", {
     className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Logo
-  }, /*#__PURE__*/React.createElement("div", null, "Bimmer"), /*#__PURE__*/React.createElement("div", null, "Bits"));
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].rotate
+  }, "Bimmer"), /*#__PURE__*/React.createElement("div", {
+    className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].rotate
+  }, "Bits"));
 }
 {/* <div style={transform.rotate}>Bimmer</div>
  <div style={transform.rotate}>Bits</div> */}
@@ -1105,7 +1109,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.l8hJyaPvo9smd6LiNqWK {
   display: flex;
   flex-grow: 2;
   cursor: pointer;
-  background-color: #23588f;
+  background-color: rgba(35, 88, 143, 0.3);
   color: var(--white);
 }
 
@@ -1113,7 +1117,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.l8hJyaPvo9smd6LiNqWK {
   color: var(--text-dark);
   background-color: var(--tan-1);
   border: 0.1vmin solid var(--tan-3);
-}`, "",{"version":3,"sources":["webpack://./src/components/CategoryList/CategoryList.module.scss"],"names":[],"mappings":"AAAA;EACI,wBAAA;EACA,gBAAA;EACA,UAAA;EACA,gBAAA;AACJ;;AAEI;EACA,gBAAA;EACA,gBAAA;EACA,sBAAA;EACA,sBAAA;EACA,kCAAA;AACJ;;AAEI;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,yBAAA;EACA,mBAAA;AACJ;;AAEI;EACA,uBAAA;EACA,8BAAA;EACA,kCAAA;AACJ","sourcesContent":[".CategoryList {\n    color: var(--text-light);\n    list-style: none;\n    padding: 0;\n    font-size: 1.3vw;\n    }\n    \n    .CategoryList li {\n    padding: .2vmin;\n    text-align: left;\n    border-radius: .5vmin;\n    margin-bottom: .5vmin;\n    color: #000b;\n    }\n    \n    .CategoryList li:hover:not(.active) {\n    display: flex;\n    flex-grow: 2;\n    cursor: pointer;\n    background-color: #23588f;\n    color: var(--white);\n    }\n    \n    .CategoryList li.active {\n    color: var(--text-dark);\n    background-color: var(--tan-1);\n    border: .1vmin solid var(--tan-3);\n    }"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/CategoryList/CategoryList.module.scss"],"names":[],"mappings":"AAAA;EACI,wBAAA;EACA,gBAAA;EACA,UAAA;EACA,gBAAA;AACJ;;AAEI;EACA,gBAAA;EACA,gBAAA;EACA,sBAAA;EACA,sBAAA;EACA,kCAAA;AACJ;;AAEI;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,wCAAA;EACA,mBAAA;AACJ;;AAEI;EACA,uBAAA;EACA,8BAAA;EACA,kCAAA;AACJ","sourcesContent":[".CategoryList {\n    color: var(--text-light);\n    list-style: none;\n    padding: 0;\n    font-size: 1.3vw;\n    }\n    \n    .CategoryList li {\n    padding: .2vmin;\n    text-align: left;\n    border-radius: .5vmin;\n    margin-bottom: .5vmin;\n    color: #000b;\n    }\n    \n    .CategoryList li:hover:not(.active) {\n    display: flex;\n    flex-grow: 2;\n    cursor: pointer;\n    background-color: rgba(35, 88, 143, .3);\n    color: var(--white);\n    }\n    \n    .CategoryList li.active {\n    color: var(--text-dark);\n    background-color: var(--tan-1);\n    border: .1vmin solid var(--tan-3);\n    }"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"CategoryList": `l8hJyaPvo9smd6LiNqWK`,
@@ -1204,8 +1208,8 @@ ___CSS_LOADER_EXPORT___.locals = {
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.EDeinQzfS2N2rVW_Z1GP {
-  height: 12vmin;
-  width: 12vmin;
+  height: 16vmin;
+  width: 16vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1214,18 +1218,20 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.EDeinQzfS2N2rVW_Z1GP {
   background-size: 33vmin;
   background-position: center;
   color: black;
-  font-size: 2.6vmin;
+  font-size: 2.4vmin;
   font-family: "Kanit", sans-serif;
   border: 0.34vmin solid black;
   border-radius: 50%;
 }
 
-/*.rotate {
-    transform: rotate(-45deg);
-}*/`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,2DAAA;EACA,uBAAA;EACA,2BAAA;EACA,YAAA;EACA,kBAAA;EACA,gCAAA;EACA,4BAAA;EACA,kBAAA;AACJ;;AACA;;EAAA","sourcesContent":[".Logo {\n    height: 12vmin;\n    width: 12vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-image: url('http://localhost:3000/img/logo.jpg');\n    background-size: 33vmin;\n    background-position: center;\n    color: black;\n    font-size: 2.6vmin;\n    font-family: 'Kanit', sans-serif;\n    border: .34vmin solid black;\n    border-radius: 50%;\n    }\n/*.rotate {\n    transform: rotate(-45deg);\n}*/"],"sourceRoot":""}]);
+.m1bNAYKBRXbJWbjtPnQU {
+  transform: rotate(-45deg);
+  padding: 11px;
+}`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,2DAAA;EACA,uBAAA;EACA,2BAAA;EACA,YAAA;EACA,kBAAA;EACA,gCAAA;EACA,4BAAA;EACA,kBAAA;AACJ;;AAEI;EACA,yBAAA;EACA,aAAA;AACJ","sourcesContent":[".Logo {\n    height: 16vmin;\n    width: 16vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-image: url('http://localhost:3000/img/logo.jpg');\n    background-size: 33vmin;\n    background-position: center;\n    color: black;\n    font-size: 2.4vmin;\n    font-family: 'Kanit', sans-serif;\n    border: .34vmin solid black;\n    border-radius: 50%;\n    }\n\n    .rotate {\n    transform: rotate(-45deg);\n    padding: 11px;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
-	"Logo": `EDeinQzfS2N2rVW_Z1GP`
+	"Logo": `EDeinQzfS2N2rVW_Z1GP`,
+	"rotate": `m1bNAYKBRXbJWbjtPnQU`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1597,7 +1603,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
   justify-content: space-evenly;
   align-items: center;
   padding: 29vmin;
-  border-radius: 2vmin;
 }
 
 .RygkJgZmBHTETlLP3C3i h3 {
@@ -1605,7 +1610,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
   text-align: center;
   color: #e6e6e4;
   cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,iEAAA;EACA,wBAAA;EACA,4BAAA;EACA,wBAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,eAAA;EACA,oBAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,eAAA;AACJ","sourcesContent":[".AuthPage {\n    background-image: url('http://localhost:3000/img/background.jpg');\n    background-size: 195vmin;\n    background-repeat: no-repeat;\n    background-position: top;\n    height: 100%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    padding: 29vmin;\n    border-radius: 2vmin\n  }\n  \n  .AuthPage h3 {\n    margin-top: 4vmin;\n    text-align: center;\n    color:#e6e6e4;\n    cursor: pointer;\n  }\n\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,iEAAA;EACA,wBAAA;EACA,4BAAA;EACA,wBAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,eAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,eAAA;AACJ","sourcesContent":[".AuthPage {\n    background-image: url('http://localhost:3000/img/background.jpg');\n    background-size: 195vmin;\n    background-repeat: no-repeat;\n    background-position: top;\n    height: 100%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    padding: 29vmin;\n  }\n  \n  .AuthPage h3 {\n    margin-top: 4vmin;\n    text-align: center;\n    color:#e6e6e4;\n    cursor: pointer;\n  }\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"AuthPage": `RygkJgZmBHTETlLP3C3i`
@@ -1743,7 +1748,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e6ebf3;
-  padding: 5vmin;
   height: 100vh;
 }
 
@@ -1871,7 +1875,7 @@ button:disabled, form:invalid button[type=submit] {
 button[type=submit] {
   grid-column: span 2;
   margin: 1vmin 0 0;
-}`, "",{"version":3,"sources":["webpack://./src/scss/styles.scss"],"names":[],"mappings":"AAAA;EACE,gBAAA;EACA,gBAAA;EACA,gBAAA;EACA,gBAAA;EACA,gBAAA;EACA,iBAAA;EACA,qBAAA;EACA,oBAAA;AACF;;AAEA;EACE,sBAAA;AACF;;AAEA;EACE,SAAA;EACA,+BAAA;EACA,iCAAA;EACA,gCAAA;EACA,mCAAA;EACA,kCAAA;EACA,yBAAA;EACA,cAAA;EACA,aAAA;AACF;;AAEA;EACE,+EAAA;AACF;;AAGA;EACE,YAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,iBAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,sBAAA;AAAF;;AAGA;EACE,yBAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,8BAAA;EACA,uBAAA;EACA,kCAAA;EACA,oBAAA;EACA,gBAAA;EACA,kBAAA;EACA,gBAAA;AAAF;;AAGA;EACE,cAAA;EACA;qCAAA;EAEA,oBAAA;AAAF;;AAGA;EACE,oBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,aAAA;EACA,cAAA;AAAF;;AAGA;EACE,gBAAA;EACA,aAAA;EACA,mBAAA;AAAF;;AAGA;EACE,cAAA;EACA,gBAAA;EACA,kCAAA;EACA,sBAAA;EACA,uBAAA;EACA,iCAAA,EAAA,qBAAA;EACA,aAAA;AAAF;;AAGA;EACE,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,gBAAA;EACA,mBAAA;EACA,yBAAA;EACA,kBAAA;EACA,iBAAA;EACA,qBAAA;EACA,kBAAA;EACA,2BAAA;EACA,sBAAA;EACA,aAAA;EACA,eAAA;AAAF;;AAGA;EACE,kBAAA;EACA,sBAAA;EACA,yBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,wBAAA;AAAF;;AAGA;EACE,mBAAA;EACA,yBAAA;AAAF;;AAGA;EACE,mBAAA;EACA,iBAAA;AAAF","sourcesContent":[":root {\n  --white: #FFFFFF;\n  --tan-1: #FBF9F6;\n  --tan-2: #E7E2DD;\n  --tan-3: #E2D9D1;\n  --tan-4: #D3C1AE;\n  --orange: #F67F00;\n  --text-light: #968c84;\n  --text-dark: #615954;\n}\n\n*, *:before, *:after {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  font-family: 'Abel', sans-serif;\n  font-family: 'Amatic SC', cursive;\n  font-family: 'Kanit', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-color: #e6ebf3;\n  padding: 5vmin;\n  height: 100vh;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n\n#root {\n  height: 100%;\n}\n\n.align-ctr {\n  text-align: center;\n}\n\n.align-rt {\n  text-align: right;\n}\n\n.smaller {\n  font-size: smaller;\n}\n\n.flex-ctr-ctr {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.flex-col {\n  flex-direction: column;\n}\n\n.flex-j-end {\n  justify-content: flex-end;\n}\n\n.scroll-y {\n  overflow-y: scroll;\n}\n\n.section-heading {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  background-color: var(--tan-1);\n  color: var(--text-dark);\n  border: .1vmin solid var(--tan-3);\n  border-radius: 1vmin;\n  padding: .6vmin;\n  text-align: center;\n  font-size: 2vmin;\n}\n\n.form-container {\n  padding: 3vmin;\n  /*background-color: var(--tan-1);\n  border: .1vmin solid var(--tan-3);*/\n  border-radius: 1vmin;\n}\n\np.error-message {\n  color: var(--orange);\n  text-align: center;\n}\n\nform {\n  display: grid;\n  grid-template-columns: 1fr 3fr;\n  gap: 1.25vmin;\n  color: #e6e6e4;\n}\n\nlabel {\n  font-size: 2vmin;\n  display: flex;\n  align-items: center;\n}\n\ninput {\n  padding: 1vmin;\n  font-size: 2vmin;\n  border: .1vmin solid var(--tan-3);\n  border-radius: .5vmin;\n  color: var(--text-dark);\n  background-image: none !important; /* prevent lastpass */\n  outline: none;\n}\n\ninput:focus {\n  border-color: darkgray;\n}\n\nbutton, a.button {\n  margin: 1vmin;\n  padding: .6vmin;\n  color: var(--white);\n  background-color: #38a4fe;\n  font-size: 1.8vmin;\n  font-weight: bold;\n  text-decoration: none;\n  text-align: center;\n  border: 0.1vmin solid white;\n  border-radius: .5vmin;\n  outline: none;\n  cursor: pointer;\n}\n\nbutton.btn-sm {\n  font-size: 1.5vmin;\n  padding: .4vmin 2vmin;\n  background-color: #c91816\n}\n\nbutton.btn-xs {\n  font-size: 1vmin;\n  padding: .4vmin .5vmin;\n}\n\nbutton:disabled, form:invalid button[type=\"submit\"] {\n  cursor: not-allowed;\n  background-color: #38a4fe;\n}\n\nbutton[type=\"submit\"] {\n  grid-column: span 2;\n  margin: 1vmin 0 0;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/scss/styles.scss"],"names":[],"mappings":"AAAA;EACE,gBAAA;EACA,gBAAA;EACA,gBAAA;EACA,gBAAA;EACA,gBAAA;EACA,iBAAA;EACA,qBAAA;EACA,oBAAA;AACF;;AAEA;EACE,sBAAA;AACF;;AAEA;EACE,SAAA;EACA,+BAAA;EACA,iCAAA;EACA,gCAAA;EACA,mCAAA;EACA,kCAAA;EACA,yBAAA;EACA,aAAA;AACF;;AAEA;EACE,+EAAA;AACF;;AAGA;EACE,YAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,iBAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,sBAAA;AAAF;;AAGA;EACE,yBAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,8BAAA;EACA,uBAAA;EACA,kCAAA;EACA,oBAAA;EACA,gBAAA;EACA,kBAAA;EACA,gBAAA;AAAF;;AAGA;EACE,cAAA;EACA;qCAAA;EAEA,oBAAA;AAAF;;AAGA;EACE,oBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,aAAA;EACA,cAAA;AAAF;;AAGA;EACE,gBAAA;EACA,aAAA;EACA,mBAAA;AAAF;;AAGA;EACE,cAAA;EACA,gBAAA;EACA,kCAAA;EACA,sBAAA;EACA,uBAAA;EACA,iCAAA,EAAA,qBAAA;EACA,aAAA;AAAF;;AAGA;EACE,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,gBAAA;EACA,mBAAA;EACA,yBAAA;EACA,kBAAA;EACA,iBAAA;EACA,qBAAA;EACA,kBAAA;EACA,2BAAA;EACA,sBAAA;EACA,aAAA;EACA,eAAA;AAAF;;AAGA;EACE,kBAAA;EACA,sBAAA;EACA,yBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,wBAAA;AAAF;;AAGA;EACE,mBAAA;EACA,yBAAA;AAAF;;AAGA;EACE,mBAAA;EACA,iBAAA;AAAF","sourcesContent":[":root {\n  --white: #FFFFFF;\n  --tan-1: #FBF9F6;\n  --tan-2: #E7E2DD;\n  --tan-3: #E2D9D1;\n  --tan-4: #D3C1AE;\n  --orange: #F67F00;\n  --text-light: #968c84;\n  --text-dark: #615954;\n}\n\n*, *:before, *:after {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  font-family: 'Abel', sans-serif;\n  font-family: 'Amatic SC', cursive;\n  font-family: 'Kanit', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-color: #e6ebf3;\n  height: 100vh;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n\n#root {\n  height: 100%;\n}\n\n.align-ctr {\n  text-align: center;\n}\n\n.align-rt {\n  text-align: right;\n}\n\n.smaller {\n  font-size: smaller;\n}\n\n.flex-ctr-ctr {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.flex-col {\n  flex-direction: column;\n}\n\n.flex-j-end {\n  justify-content: flex-end;\n}\n\n.scroll-y {\n  overflow-y: scroll;\n}\n\n.section-heading {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  background-color: var(--tan-1);\n  color: var(--text-dark);\n  border: .1vmin solid var(--tan-3);\n  border-radius: 1vmin;\n  padding: .6vmin;\n  text-align: center;\n  font-size: 2vmin;\n}\n\n.form-container {\n  padding: 3vmin;\n  /*background-color: var(--tan-1);\n  border: .1vmin solid var(--tan-3);*/\n  border-radius: 1vmin;\n}\n\np.error-message {\n  color: var(--orange);\n  text-align: center;\n}\n\nform {\n  display: grid;\n  grid-template-columns: 1fr 3fr;\n  gap: 1.25vmin;\n  color: #e6e6e4;\n}\n\nlabel {\n  font-size: 2vmin;\n  display: flex;\n  align-items: center;\n}\n\ninput {\n  padding: 1vmin;\n  font-size: 2vmin;\n  border: .1vmin solid var(--tan-3);\n  border-radius: .5vmin;\n  color: var(--text-dark);\n  background-image: none !important; /* prevent lastpass */\n  outline: none;\n}\n\ninput:focus {\n  border-color: darkgray;\n}\n\nbutton, a.button {\n  margin: 1vmin;\n  padding: .6vmin;\n  color: var(--white);\n  background-color: #38a4fe;\n  font-size: 1.8vmin;\n  font-weight: bold;\n  text-decoration: none;\n  text-align: center;\n  border: 0.1vmin solid white;\n  border-radius: .5vmin;\n  outline: none;\n  cursor: pointer;\n}\n\nbutton.btn-sm {\n  font-size: 1.5vmin;\n  padding: .4vmin 2vmin;\n  background-color: #c91816\n}\n\nbutton.btn-xs {\n  font-size: 1vmin;\n  padding: .4vmin .5vmin;\n}\n\nbutton:disabled, form:invalid button[type=\"submit\"] {\n  cursor: not-allowed;\n  background-color: #38a4fe;\n}\n\nbutton[type=\"submit\"] {\n  grid-column: span 2;\n  margin: 1vmin 0 0;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"root": `tjWEEomjEYxLvWlDEOE3`,
@@ -2804,4 +2808,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.98b42b99532fd9ae116252434ba3ce68.js.map
+//# sourceMappingURL=App.3169ee18eb04d8625ab3bb9d1cefb41b.js.map

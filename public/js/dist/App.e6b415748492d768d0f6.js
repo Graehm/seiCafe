@@ -1593,9 +1593,9 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
   background-image: url("http://localhost:3000/img/background.jpg");
-  background-size: 195vmin;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   height: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -1608,7 +1608,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
   text-align: center;
   color: #e6e6e4;
   cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,iEAAA;EACA,wBAAA;EACA,4BAAA;EACA,wBAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,eAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,eAAA;AACJ","sourcesContent":[".AuthPage {\n    background-image: url('http://localhost:3000/img/background.jpg');\n    background-size: 195vmin;\n    background-repeat: no-repeat;\n    background-position: top;\n    height: 100%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    padding: 29vmin;\n  }\n  \n  .AuthPage h3 {\n    margin-top: 4vmin;\n    text-align: center;\n    color:#e6e6e4;\n    cursor: pointer;\n  }\n\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,iEAAA;EACA,sBAAA;EACA,4BAAA;EACA,2BAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,eAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,eAAA;AACJ","sourcesContent":[".AuthPage {\n    background-image: url('http://localhost:3000/img/background.jpg');\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    height: 100%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    padding: 29vmin;\n  }\n  \n  .AuthPage h3 {\n    margin-top: 4vmin;\n    text-align: center;\n    color:#e6e6e4;\n    cursor: pointer;\n  }\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"AuthPage": `RygkJgZmBHTETlLP3C3i`
@@ -2806,4 +2806,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.f96f6c51763f871528b76935274ba3a2.js.map
+//# sourceMappingURL=App.08c05c0f85c036c44792a438e0a8ebbb.js.map

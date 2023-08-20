@@ -1212,7 +1212,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.EDeinQzfS2N2rVW_Z1GP {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("http://localhost:3000/img/logo.jpg");
+  background-image: url("https://i.imgur.com/KBCX6Rj.jpg");
   background-size: 33vmin;
   background-position: center;
   color: black;
@@ -1225,7 +1225,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.EDeinQzfS2N2rVW_Z1GP {
 .m1bNAYKBRXbJWbjtPnQU {
   transform: rotate(-45deg);
   padding: 11px;
-}`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,2DAAA;EACA,uBAAA;EACA,2BAAA;EACA,YAAA;EACA,kBAAA;EACA,gCAAA;EACA,2BAAA;EACA,kBAAA;AACJ;;AAEI;EACA,yBAAA;EACA,aAAA;AACJ","sourcesContent":[".Logo {\n    height: 16vmin;\n    width: 16vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-image: url('http://localhost:3000/img/logo.jpg');\n    background-size: 33vmin;\n    background-position: center;\n    color: black;\n    font-size: 2.4vmin;\n    font-family: 'Kanit', sans-serif;\n    border: .1vmin solid black;\n    border-radius: 50%;\n    }\n\n    .rotate {\n    transform: rotate(-45deg);\n    padding: 11px;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,wDAAA;EACA,uBAAA;EACA,2BAAA;EACA,YAAA;EACA,kBAAA;EACA,gCAAA;EACA,2BAAA;EACA,kBAAA;AACJ;;AAEI;EACA,yBAAA;EACA,aAAA;AACJ","sourcesContent":[".Logo {\n    height: 16vmin;\n    width: 16vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    background-image: url('https://i.imgur.com/KBCX6Rj.jpg');\n    background-size: 33vmin;\n    background-position: center;\n    color: black;\n    font-size: 2.4vmin;\n    font-family: 'Kanit', sans-serif;\n    border: .1vmin solid black;\n    border-radius: 50%;\n    }\n\n    .rotate {\n    transform: rotate(-45deg);\n    padding: 11px;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Logo": `EDeinQzfS2N2rVW_Z1GP`,
@@ -1592,7 +1592,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
-  background-image: url("http://localhost:3000/img/background.jpg");
+  background-image: url("https://i.imgur.com/0xe4vbC.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1608,7 +1608,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
   text-align: center;
   color: #e6e6e4;
   cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,iEAAA;EACA,sBAAA;EACA,4BAAA;EACA,2BAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,eAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,eAAA;AACJ","sourcesContent":[".AuthPage {\n    background-image: url('http://localhost:3000/img/background.jpg');\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    height: 100%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    padding: 29vmin;\n  }\n  \n  .AuthPage h3 {\n    margin-top: 4vmin;\n    text-align: center;\n    color:#e6e6e4;\n    cursor: pointer;\n  }\n\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,wDAAA;EACA,sBAAA;EACA,4BAAA;EACA,2BAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,eAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,eAAA;AACJ","sourcesContent":[".AuthPage {\n    background-image: url('https://i.imgur.com/0xe4vbC.jpg');\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    height: 100%;\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    padding: 29vmin;\n  }\n  \n  .AuthPage h3 {\n    margin-top: 4vmin;\n    text-align: center;\n    color:#e6e6e4;\n    cursor: pointer;\n  }\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"AuthPage": `RygkJgZmBHTETlLP3C3i`
@@ -2806,4 +2806,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.08c05c0f85c036c44792a438e0a8ebbb.js.map
+//# sourceMappingURL=App.86a62de29fb67faf18b77f62f211c4c1.js.map
